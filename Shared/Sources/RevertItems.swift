@@ -74,3 +74,11 @@ extension RevertItems {
     fileprivate static let platformSuffix = "_tvOS"
   #endif
 }
+
+extension RevertItems {
+
+  static var coloursData: [ColourSection] {
+    return [.init(title: "Dynamic Colours Only Available in iOS 13 and above", rows: [])]
+  }
+
+}
